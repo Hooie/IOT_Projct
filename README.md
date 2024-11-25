@@ -1,11 +1,11 @@
 <div align="center">
 
-# SC_IOT_Projct
+# SC_IOT_Projct : PiNest
 
 <!-- logo -->
 <img src="https://github.com/SC-PiNest/FrontEnd/blob/master/app/src/main/res/drawable/logo.png" width="300"/>
 
-## PiNest
+#### 라즈베리파이를 활용한 스마트 홈 케어 시스템
 </div> 
 
 ## Architecture
@@ -92,16 +92,16 @@
 
 <br>
 
-## 📝 소개
+## 📝 개요
 라즈베리파이를 활용한 스마트 홈 케어 시스템입니다.
 
-기능 소개
+#### 기능 소개
 - 원격 전등 제어 기능
-- 전등 제어 시간 예약 기능(예약한 시간에 전등 자동 on/off 기능)
+- 전등 제어 예약 기능(예약한 시간에 전등 자동 on/off 기능)
 - 원격 CCTV 확인 기능
+- 감시모드 활성화 중 움직임 감지 시 앱 푸시 알림 기능
 - 실시간 실내/실외 온도 및 습도 확인 기능
 - 현재 온도 및 습도에 따른 추천 메시지 출력 기능
-- 감시모드 활성화 중 움직임 감지 시 앱 푸시 알림 기능
 
 
 <br>
