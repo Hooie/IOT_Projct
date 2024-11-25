@@ -12,7 +12,7 @@ while True:
             t = am2320sensor.ReadTemperature()
             h = am2320sensor.ReadHumidity()
             tl = time.localtime()
-            f = open('/home/teaho/sensor/TempHumid.txt', 'a')
+            f = open('/home/user/hardware/TempHumid.txt', 'a')
             date = (time.strftime("%Y-%m-%d", time.localtime(time.time())))
             #print("%d:%d:%d" %(tl.tm_hour,tl.tm_min,tl.tm_sec), end='')
             #print(" 온도: ", t, "℃", end='')
