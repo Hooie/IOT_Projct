@@ -14,7 +14,7 @@ import subprocess
 import pir
 
 def send(sock):
-	f = open('/home/teaho/sensor/TempHumid.txt', 'r')
+	f = open('/home/user/hardware/TempHumid.txt', 'r')
 	response = f.readlines()[-1]
 	f.close()
 	myresponse = response.encode('utf-8')
@@ -22,7 +22,7 @@ def send(sock):
 	print(response)
 
 def handle_exit2():
-	subprocess.run(["python", "/home/teaho/sensor/start_program.py"])
+	subprocess.run(["python", "/home/user/hardware/start_program.py"])
 
 #소켓 정보 초기화
 BUFSIZE = 1024
@@ -86,13 +86,12 @@ while True:
 	
 	# print("다음 프로그램으로...")
 	
-	
 	#except KeyboardInterrupt:
 	# print('키보드 인터럽트 발생!! 종료합니다.')
 	# GPIO.cleanup()
 	
 	#finally:
 	# serverSocket.close()
-	time.sleep(2)
+	time.sleep(1)
 
 exit()
