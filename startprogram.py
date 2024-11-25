@@ -6,7 +6,7 @@ import atexit
 import subprocess
 
 def send(sock):
-	f = open('/home/teaho/sensor/TempHumid.txt', 'r')
+	f = open('/home/user/hardware/TempHumid.txt', 'r')
 	response = f.readlines()[-1]
 	f.close()
 	myresponse = response.encode('utf-8')
@@ -14,7 +14,7 @@ def send(sock):
 	print(response)
 
 def handle_exit():
-	subprocess.run(["python", "/home/teaho/sensor/py_program.py"])
+	subprocess.run(["python", "/home/user/hardware/py_program.py"])
 
 atexit.register(handle_exit)
 
