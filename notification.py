@@ -5,7 +5,7 @@ from firebase_admin import credentials
 from firebase_admin import messaging
 import time
 
-cred = credentials.Certificate("/home/teaho/sensor/cert_key.json")
+cred = credentials.Certificate("/home/user/hardware/cert_key.json")
 default_app = firebase_admin.initialize_app(cred)
 
 registration_token = 'd-7TiM_kTDKz_NUVApuZI6:APA91bEpTsLU0v6uO0jFUKz8vA4_yHrp4srbvJs_bZKB_NBlq_CbfmnDNMmlAa73sdU5SCgWXbrE5jRxG9MfUti-xjLm8c14r8NCFHIeF86yNDbwy4g6DLg'
