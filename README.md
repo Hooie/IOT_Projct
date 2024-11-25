@@ -1,7 +1,7 @@
 # IOT_Projct_HardWare
 
 ## Architecture
-
+![SC project 3-2 (8)](https://github.com/user-attachments/assets/dc192d9f-38df-45d8-9896-989915b04473)
 
 
 ## Tech Stack
