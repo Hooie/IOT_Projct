@@ -1,6 +1,6 @@
-# SC_IOT_Projct
-
 <div align="center">
+
+# SC_IOT_Projct
 
 <!-- logo -->
 <img src="https://github.com/SC-PiNest/FrontEnd/blob/master/app/src/main/res/drawable/logo.png" width="300"/>
