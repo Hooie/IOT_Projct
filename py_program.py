@@ -4,13 +4,6 @@ import time
 import smbus
 import sys
 import RPi.GPIO as GPIO
-import io
-import logging
-from http import server
-from threading import Condition
-from picamera2 import Picamera2
-from picamera2.encoders import JpegEncoder
-from picamera2.outputs import FileOutput
 import socket
 import py_motor
 import atexit
