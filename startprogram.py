@@ -1,5 +1,4 @@
 #startprogram.py
-
 import os
 import socket
 import atexit
@@ -21,6 +20,7 @@ atexit.register(handle_exit)
 #소켓 정보 초기화
 BUFSIZE = 1024
 ADDR = ('', 44444)
+cmd = []
 
 serverSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
@@ -37,7 +37,7 @@ print("----------------------")
 print('연결 대기 중...')
 client_socket, client_address = serverSocket.accept()
 print('연결되었습니다!')
-
+		
 data = client_socket.recv(1024)
 data = data.decode('utf-8')
 print('받은 데이터는: ', data)
@@ -47,5 +47,5 @@ if intdata == 3:
 	send(client_socket)
 	data = 0
 	client_socket.close()
-	
+
 exit()
